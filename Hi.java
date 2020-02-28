@@ -1,6 +1,8 @@
+package com.company;
+
 import java.util.Scanner;
 
-class HelloWorld {
+class Main {
     public static void main(String[] args) {
         
         Scanner in = new Scanner(System.in);
@@ -10,7 +12,7 @@ class HelloWorld {
         int x = in.nextInt();
           
         System.out.println("Hello World!");
-        Sysyem.out.println("Goodbye World!");
+        System.out.println("Goodbye World!");
         System.out.println("x=" + x + "; y=" + y);
         
         in.close();
